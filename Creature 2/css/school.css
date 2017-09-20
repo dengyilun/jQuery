@@ -1,0 +1,1001 @@
+/*bg开始*/
+.bg_box{
+	position: absolute;
+	left: 0;
+	top: 55px;
+	width: 100%;
+	min-width: 1200px;
+	z-index: -1;
+}
+.bg1{
+	height: 411px;
+	background: url("../img/school/s1.jpg") no-repeat center 0;
+}
+.bg2{
+	height: 290px;
+	background: url("../img/school/s2.jpg") no-repeat center 0;
+}
+.bg3{
+	height: 309px;
+	background: url("../img/school/s3.jpg") no-repeat center 0;
+}
+.bg4{
+	height: 500px;
+	background: url("../img/school/bg_p1_1.jpg") no-repeat center 0;
+}
+.bg5{
+	height: 388px;
+	background: url("../img/school/bg_p1_2.jpg") no-repeat center 0;
+}
+.bg6{
+	height: 700px;
+	background: url("../img/school/bg_p2_1.jpg") no-repeat center 0;
+}
+.bg7{
+	height: 654px;
+	background: url("../img/school/bg_p2_2.jpg") no-repeat center 0;
+}
+.bg8{
+	height: 711px;
+	background: url("../img/school/bg_p2_3.jpg") no-repeat center 0;
+}
+.bg9{
+	height: 755px;
+	background: url("../img/school/bg_p3.jpg") no-repeat center 0;
+}
+.bg10{
+	height: 861px;
+	background: url("../img/school/bg_p4.jpg") no-repeat center 0;
+}
+.bg11{
+	height: 243px;
+	background: url("../img/school/bg_p5.jpg") no-repeat center 0;
+}
+/*bg结束*/
+/*main开始*/
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+/*header开始*/
+.header{
+	position: relative;
+	height: 1010px;
+	overflow: hidden;
+}
+.logo{
+	width: 166px;
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	height: 147px;
+	overflow: hidden;
+	
+}
+.logo a{
+	height: 147px;
+	overflow: hidden;
+}
+.anchor{
+	position: absolute;
+	left:218px;
+	top: 330px;
+	
+}
+.anchor a{
+	float: left;
+	background: url("../img/school/btn_anchor.png") no-repeat;
+	overflow: hidden;
+	margin-right: 8px;
+	text-indent: -999px;
+}
+
+.anchor1,.anchor3{
+	width: 218px;
+	height: 110px;
+	background-position: 0 0;
+}
+a.anchor2{
+	margin-top: 16px;
+	width: 280px;
+	height: 93px;
+	background-position: 0 -440px;
+}
+a.anchor3{
+	background-position: 0 -220px;
+}
+a.anchor1:hover{
+	background-position: 0 -110px;
+}
+a.anchor2:hover{
+	background-position: 0 -533px;
+}
+a.anchor3:hover{
+	background-position: 0 -330px;
+}
+.share{
+	position: absolute;
+	top: 20px;
+	right: 50px;
+}
+.share span{
+	color: #285e94;
+	float: left;
+	line-height: 42px;
+	font-size: 20px;
+}
+.share_icon{
+	float: left;
+	overflow: hidden;
+	font-size: 16px;
+	zoom: 1;
+}
+.share_icon a{
+	float: left;
+	overflow: hidden;
+	text-indent: -999px;
+	display: inline;
+	width: 42px;
+	height: 41px;
+	margin-left: 3px;
+	background: url("../img/school/icon_share.png") no-repeat;
+	
+}
+.share_icon a:hover{
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+a.weixin{
+	background-position: -84px 0;
+}
+a.weibo{
+	background-position: -42px 0;
+}
+a.kongjian{
+	background-position: 0 0;
+}
+/*gifts开始*/
+.gifts{
+	padding-top: 247px;
+	height: 247px;
+	position: relative;
+}
+.gifts h3{
+	color: #fff;
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: 700;
+	float: left;
+	width: 30px;
+	margin: 37px 62px 0 78px;
+}
+.gift_slide{
+	width: 267px;
+	float: left;
+	position: relative;
+}
+.slide_con{
+	width: 261px;
+	height: 190px;
+	border: 3px solid #000;
+}
+.slide_con ul{
+	position: relative;
+	width: 255px;
+	height: 184px;
+	overflow: hidden;
+	border: 3px solid #ffd016;
+}
+.slide_con li{
+	position: absolute;
+	display: block;
+	height: 184px;
+}
+.slide_con li img{
+	vertical-align: top;
+	display: inline-block;
+	margin-top: -40px;
+	margin-left: -10px;
+}
+.btn_left,.btn_right{
+	position: absolute;
+	top: 80px;
+	/*margin-top: -30px;*/
+	width: 16px;
+	height: 40px;
+	background: url("../img/school/btn_arrow.png") no-repeat -65px 0;
+}
+a.btn_left{
+	left: -22px;
+}
+a.btn_right{
+	right: -22px;
+	background: url("../img/school/btn_arrow.png") no-repeat -81px 0;
+}
+.slide_piont{
+	text-align: center;
+	font-size: 0;
+	margin-top: 8px;
+	line-height: normal;
+}
+.slide_p_b{
+	/*margin-top: 200px;*/
+	margin-left: -60px;
+}
+.slide_p_b .current{
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+}
+.slide_piont li{
+	float: left;
+	width: 14px;
+	height: 14px;
+	background: #000;
+	margin: 0 12px;
+	cursor: pointer;
+}
+.gifts_receive{
+	width: 344px;
+	margin-left: 43px;
+	display: inline;
+	float: left;
+	position: relative;
+}
+.gift_list ul{
+	width: 105%;
+	overflow: hidden;
+}
+.gift_list li{
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 78px;
+	height: 75px;
+	margin-right: 7px;
+	margin-bottom: 10px;
+}
+.gift_list li img{
+	width: 100%;
+}
+.gift_list li i{
+	display: block;
+	background: #a0750f;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 23px;
+}
+.gift_list li span{
+	display: block;
+	text-align: center;
+	font-size: 13px;
+	line-height: 23px;
+	color: #ffe685;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 23px;
+}
+.gifts_receive p{
+	line-height: 20px;
+	color: #000;
+	font-size: 14px;
+}
+.gifts_receive p span{
+	font-weight: bold;
+}
+.gifts_receive p b{
+	color: #800d0d;
+}
+.gift_btn{
+	background: url("../img/school/btn_lb.png") no-repeat;
+	display: block;
+	text-align: center;
+	width: 303px;
+	height: 67px;
+	font-size: 28px;
+	color: #fff;
+	line-height: 60px;
+	margin: 5px auto 0;
+}
+.gift_btn:hover{
+	background-position: 0 -67px;
+}
+.mouse{
+	position: absolute;
+	right: 40px;
+	bottom: -30px;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	width: 58px;
+	height: 75px;
+	background: url("../img/school/icon_mouse1.png") no-repeat;
+	
+}
+.gifts_baozou{
+	position: absolute;
+	right: 110px;
+	bottom: 28px;
+	width: 253px;
+	height: 79px;
+	background: url("../img/school/icon_bz.png") no-repeat;
+}
+.gifts_baozou span{
+	display: block;
+	color: #201f1d;
+	padding: 15px 0 0 80px;
+	line-height: 60px;
+	font-size: 18px;
+}
+.pet{
+	clear: both;
+	padding-top: 98px;
+}
+.pet h3{
+	float: right;
+	margin: 0 85px 0 0;
+	color: #fff;
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: 700;
+	width: 30px;
+}
+.pet_info{
+	width: 346px;
+	margin-left: 150px;
+	float: left;
+}
+.pet_info span{
+	display: block;
+	font-size: 24px;
+	color: #ffd016;
+	line-height: 60px;
+	text-align: center;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.pet_info p{
+	color: #000;
+	font-size: 16px;
+	line-height: 30px;
+}
+.pet_info p b{
+	font-size: 16px;
+	line-height: 30px;
+	color: #7f0202;
+}
+/*校园大事件*/
+.school1{
+	clear: both;
+	padding-top: 462px;
+}
+.school1 h3{
+	display: none;
+}
+.school1_pic{
+	float: left;
+	width: 559px;
+	height: 346px;
+	overflow: hidden;
+	margin-left: 17px;
+}
+.school1 dl{
+	width: 535px;
+	float: right;
+	margin-right: 25px;
+}
+.school1 dt{
+	font-size: 30px;
+	color: #fff;
+	line-height: 76px;
+	width: 230px;
+	margin-bottom: 20px;
+	font-weight: 700;
+	display: block;
+	text-align: center;
+}
+.school1 dd{
+	padding-left: 110px;
+	position: relative;
+	font-size: 16px;
+}
+.school1 dd p{
+	line-height: 32px;
+	color: #000;
+}
+.school1 dd b{
+	margin-left: -110px;
+	width: 82px;
+	color: #000;
+	display: inline-block;
+	background: url("../img/school/icon_i.png") no-repeat 0 8px;
+	padding-left: 18px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	font-weight: bold;
+	font-size: 16px;
+}
+.school1 dd span{
+	color: #870808;
+}
+.school2{
+	padding-top: 540px;
+	position: relative;
+	
+}
+.tab{
+	position: relative;
+	display: block;
+	height: 410px;
+	
+}
+.tab .ta{
+	position: absolute;
+	line-height: 30px;
+	text-align: center;
+	background: url("../img/school/bg_tab.png") no-repeat;
+	font-size: 20px;
+	color: #000;
+	cursor: pointer;
+}
+.tab li:hover{
+	color: #fff;
+	cursor: pointer;
+}
+li.tab1:hover{
+	background-position: 0 -148px;
+}
+li.tab2:hover{
+	background-position: 0 -454px;
+}
+li.tab3:hover{
+	background-position: 0 -750px;
+}
+li.tab4:hover{
+	background-position: 0 -1023px;
+}
+li.tab5:hover{
+	background-position: 0 -1281px;
+}
+
+.tab li i{
+	display: block;
+	background: #b21d1d;
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 50%;
+	position: absolute;
+	line-height: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.ta.tab1{
+	left: 0;
+	top: 84px;
+	background-position: 0 0;
+	width: 270px;
+	height: 148px;
+	padding: 0;
+}
+.ta.tab1 i{
+	left: 20px;
+	top: 14px;
+}
+.ta.tab1 p{
+	padding-top: 50px;
+}
+.ta.tab2 p{
+	padding-top: 50px;
+}
+.ta.tab2{
+	left: 0;
+	top: 231px;
+	background-position: 0 -296px;
+	width: 264px;
+	height: 158px;
+}
+.ta.tab2 i,.ta.tab3 i,.ta.tab5 i{
+	right: 10px;
+	top: 14px;
+}
+.ta.tab3{
+	right: 5px;
+	top: 31px;
+	background-position: 0 -612px;
+	width: 256px;
+	height: 138px;
+}
+.ta.tab3 p{
+	padding-top: 40px;
+}
+.ta.tab4{
+	right: 5px;
+	top: 163px;
+	background-position: 0 -888px;
+	width: 260px;
+	height: 135px;
+}
+.ta.tab4 i{
+	left: 12px;
+	bottom: 14px;
+}
+.ta.tab4 p{
+	padding-top: 35px;
+}
+.ta.tab5{
+	right: 11px;
+	top: 284px;
+	background-position: 0 -1158px;
+	width: 256px;
+	height: 123px;
+}
+.ta.tab5 p{
+	padding-top: 40px;
+}
+.ta.ta1{
+	background-position: 0 -148px;
+	color: #fff;
+}
+.ta.ta2{
+	background-position: 0 -454px;
+	color: #fff;
+}
+.ta.ta3{
+	background-position: 0 -750px;
+	right: 5px;
+	top: 31px;
+	width: 256px;
+	height: 138px;
+	color: #fff;
+}
+.ta.ta4{
+	background-position: 0 -1023px;
+	color: #fff;
+}
+.ta.ta5{
+	background-position: 0 -1281px;
+	right: 11px;
+	top: 284px;
+	width: 256px;
+	height: 123px;
+	color: #fff;
+}
+.school2_bd{
+	position: absolute;
+	z-index: 2;
+	width: 638px;
+	left: 283px;
+	top: 535px;
+}
+.school2_bd ul{
+	position: relative;
+}
+.school2_bd ul li{
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*opacity: 0;
+	filter: alpha(opacity=0);*/
+	display: none;
+}
+.school2_bd dl{
+	display: block;
+	overflow: hidden;
+	padding-top: 12px;
+}
+.school2_bd dt{
+	width: 139px;
+	height: 65px;
+	cursor: pointer;
+	padding-top: 8px;
+	color: #000;
+	float: left;
+	text-align: center;
+	background: url("../img/school/btn_tx.png") no-repeat 0 -483px;
+}
+.school2_bd dt span{
+	display: block;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: bold;
+}
+.school2_bd dt a{
+	color: #9f0f0f;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.school2_bd dd{
+	padding: 8px 0 0 10px;
+	float: left;
+	width: 480px;
+	line-height: 24px;
+	color: 000;
+	font-size: 16px;
+}
+.mouse2{
+	position: absolute;
+	left: -25px;
+	top: 460px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	background: url("../img/school/icon_mouse2.png") no-repeat;
+	width: 58px;
+	height: 75px;
+}
+.school3{
+	position: relative;
+	padding-top: 320px;
+}
+.school3 ul{
+	display: block;
+	overflow: hidden;
+}
+.school3 li{
+	float: left;
+	margin-left: 14px;
+	cursor: pointer;
+	display: inline;
+	position: relative;
+	zoom: 1;
+	overflow: hidden;
+}
+.school3 .act1{
+	width: 381px;
+}
+.act_pic1{
+	overflow: hidden;
+	background: url("../img/school/bg_box.png") no-repeat 0 0;
+	width: 381px;
+	height: 292px;
+}
+.act_pic1 img{
+	margin: 10px 0 0 10px;
+}
+.act_txt{
+	overflow: hidden;
+	width: 301px;
+	height: 77px;
+	margin: 4px auto 0;
+	background: url("../img/school/bg_box.png") no-repeat 0 -863px;
+}
+.act_txt p{
+	font-size: 17px;
+	line-height: 20px;
+	padding-left: 40px;
+	padding-top: 15px;
+	color: #000;
+	float: left;
+	text-align: center;
+}
+.act_txt p span{
+	color: #5e6b12;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
+}
+.act_txt:hover,.act_txt:hover b{
+	font-weight: 700;
+}
+
+.act_txt b{
+	display: block;
+	width: 66px;
+	float: right;
+	line-height: 18px;
+	color: #fff;
+	font-size: 14px;
+	padding: 20px 17px 0 0;
+}
+.act2 {
+	width: 392px;
+	margin-top: 12px;
+}
+.act2 .act_pic1{
+	background-position: 0 -292px;
+	width: 392px;
+	height: 281px;
+}
+.act3 .act_pic1{
+	background-position: 0 -573px;
+	width: 384px;
+	height: 290px;
+}
+/*搞事不嫌多开始*/
+.more{
+	padding-top: 328px;
+	height: 530px;
+	position: relative;
+}
+.manhua{
+	float: left;
+	width: 444px;
+	margin-left: 206px;
+}
+.manhua_title{
+	overflow: hidden;
+	
+}
+.tit{
+	float: left;
+	width: 234px;
+	height: 55px;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 50px;
+	font-size: 20px;
+	background: url("../img/school/btn_tx.png") no-repeat 0 -152px;
+}
+.btn_down{
+	float: right;
+	width: 182px;
+	height: 55px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color: #fff9b8;
+	background: url("../img/school/btn_tx.png") no-repeat 0 -318px;
+}
+.btn_down.btn_down1:hover{
+	background-position: 0 -373px;
+}
+.btn_down.btn_down2:hover{
+	background-position: 0 -263px;
+}
+.mahua_slide{
+	width: 283px;
+	float: left;
+	position: relative;
+	margin-left: 122px;
+	margin-top: 22px;
+}
+.slide_con2{
+	width: 283px;
+	height: 347px;
+}
+.temp_con{
+	overflow: hidden;
+	position: relative;
+	width: 283px;
+	
+}
+.temp_con ul{
+	width: 1698px;
+	height: 347px;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	left: 0;
+}
+.temp_con ul li{
+	float: left;
+	width: 283px;
+	display: block;
+	position: relative;
+}
+.btn_l{
+	left: -52px;
+	width: 32px;
+	height: 86px;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	background: url("../img/school/btn_arrow.png") no-repeat 0 0;
+}
+.mahua_slide .btn_r{
+	right: -46px;
+	width: 32px;
+	height: 86px;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	background: url("../img/school/btn_arrow.png") no-repeat -32px 0;
+}
+.btn_l:hover,.btn_r:hover{
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.emot{
+	float: left;
+	width: 518px;
+	margin-left: 24px;
+}
+.btn_down.btn_down2{
+	background-position: 0 -208px;
+	width: 187px;
+}
+.emot_list{
+	overflow: hidden;
+	width: 384px;
+	margin: 47px 0 0 66px;
+	
+}
+.emot_list li{
+	float: left;
+	border: 3px solid #000;
+	margin: 0 0 22px 32px;
+	padding: 4px;
+}
+.baozou2{
+	position: absolute;
+	left: -105px;
+	bottom: 35px;
+	width: 253px;
+	height: 79px;
+	background: url("../img/school/icon_bz.png") no-repeat;
+}
+.baozou2 span{
+	font-size: 18px;
+	color: #201f1d;
+	padding: 15px 0 0 80px;
+	line-height: 60px;
+	display: inline-block;
+}
+/*校园兴起*/
+.hide{
+	padding-top: 208px;
+	position: relative;
+}
+.hide_slide{
+	width: 795px;
+	padding: 10px;
+	border: 5px solid #000;
+	background: #fff;
+	margin: 0 auto;
+	position: relative;
+}
+.h_s_con ul{
+	position: relative;
+	width: 795px;
+	height: 543px;
+	overflow: hidden;
+	
+}
+.h_s_con ul li{
+	position: absolute;
+	width: 795px;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.hide_pic{
+	width: 795px;
+	height: 447px;
+	overflow: hidden;
+}
+.hide_pic img{
+	width: 795px;
+}
+.hide_txt{
+	padding: 10px 0 14px;
+	overflow: hidden;
+}
+.hide_txt dt{
+	float: left;
+	width: 154px;
+	line-height: 55px;
+	color: #000;
+	margin: 8px 0 0 22px;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	background: url("../img/school/btn_tx.png") no-repeat 0 -428px;
+}
+.hide_txt dd{
+	float: right;
+	width: 600px;
+	line-height: 24px;
+	color: #000;
+	font-size: 16px;
+	
+}
+.h_btn1,.h_btn2{
+	position: absolute;
+	top: 50%;
+	width: 57px;
+	height: 126px;
+	margin-top: -63px;
+	background: url("../img/school/btn_arrow.png") no-repeat -97px 0;
+}
+a.h_btn2{
+	right: -76px;
+	background-position: -154px 0;
+}
+a.h_btn1{
+	left: -76px;
+}
+.h_btn1:hover{
+	background-position: -211px 0;
+}
+.h_btn2:hover{
+	background-position: -268px 0;
+}
+/*main底部*/
+.main_foot{
+	text-align: center;
+	overflow: hidden;
+	clear: both;
+	padding: 135px 0 0;
+	font-size: 0;
+}
+.main_foot a{
+	display: inline-block;
+	width: 378px;
+	height: 118px;
+	color: #000;
+	font-size: 35px;
+	line-height: 118px;
+	overflow: hidden;
+	margin: 0 50px;
+	background: url("../img/school/btn_foot.png") no-repeat;
+}
+a.btn_dow{
+	background-position: 0 0;
+}
+a.btn_dow:hover{
+	background-position: 0 -118px;
+}
+
+a.btn_home{
+	background-position: 0 -236px;
+}
+a.btn_home:hover{
+	background-position: 0 -354px;
+}
+/*main结束*/
+/*footer开始*/
+.footer{
+	margin-top: 56px;
+	padding: 15px 0 20px;
+	background: #151515;
+	min-width: 1200px;
+}
+.footer_con{
+	width: 1000px;
+	margin: 0 auto;
+	height: 91px;
+}
+.foot_logo{
+	width: 280px;
+	height: 46px;
+	margin: 30px 0 0 242px;
+	float: left;
+	display: block;
+}
+.foot_logo a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url("../img/school/logodark.png") no-repeat;
+}
+.copyright{
+	width: 300px;
+	float: left;
+	margin: 30px 0 0 20px;
+	color: #eee;
+	font-size: 12px;
+	line-height: 1.5;
+}
+.copyright p{
+	font-size: 12px;
+	font-family: sumsin;
+	line-height: 1.5;
+	color: #fff;
+	text-align: left;
+}
+.copyright a{
+	color: #fff;
+}
+.copyright a:hover{
+	color: red;
+	text-decoration: underline;
+}
+/*footer结束*/

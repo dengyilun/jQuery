@@ -1,0 +1,145 @@
+html,body,h1,h2,h3,h4,h5,h6,div,a,p,ul,li,img,ol,dt,dd,dl,span,table,button,input,form{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+html,body{
+	position: relative;
+	width: 100%;
+	font: 14px/170% "Microsoft YaHei";
+}
+input,button{
+	border: none;
+	outline-style: none;
+}
+i,s,b,u,em,strong{
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+img{
+	border: 0;
+	vertical-align: middle;
+	display: block;
+}
+.clearfix::before,.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.clearfix{
+	zoom: 1;
+}
+.fl{
+	float: left;
+	
+}
+.fr{
+	float: right;
+}
+.w{
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+}
+
+/*top开始*/
+.top_box{
+	position: relative;
+	height: 55px;
+	width: 100%;
+	min-width: 1200px;
+	z-index: 1000;
+	background: url("../img/school/bg_r.jpg") repeat-x 0 0 #F7F7F7;
+	
+}
+.top{
+	width: 1200px;
+	min-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.top_logo{
+	position: absolute;
+	left: 12px;
+	top:8px;
+	width: 222px;
+	height: 38px;
+	z-index: 9999;
+	
+}
+.top_pic{
+	position: absolute;
+	left: 250px;
+	top: 0;
+	width: 450px;
+	height: 55px;
+	overflow: hidden;
+}
+.top_pic_big{
+	display: none;
+	z-index: 20;
+	position: relative;
+}
+.top_nav{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 55px;
+	z-index: 30;
+}
+.top_nav a{
+	float: left;
+	padding: 0 13px;
+	height: 54px;
+	line-height: 54px;
+	font-size: 14px;
+	color: #000;
+}
+.top_nav a:hover{
+	background: url("../img/school/nav_hover.png") repeat-x;
+}
+.nav_ul li{
+	float: left;
+	width: 82px;
+	height: 54px;
+}
+li.nav_li_sc{
+	overflow: hidden;
+}
+li.nav_li_sc:hover{
+	height: 200px;
+}
+.top_nav_link{
+	/*display: none;*/
+	float: left;
+	clear: both;
+	width: 100%;
+	background: #F3F3F3;
+}
+li.top_li_last{
+	width: 98px;
+}
+.top_li_last a{
+	padding-right: 27px;
+}
+.top_li_last em{
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	display: inline-block;
+	width: 14px;
+	height: 12px;
+	background: url("../img/school/ico_list.png") no-repeat;
+} 
+/*top结束*/
